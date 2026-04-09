@@ -38,6 +38,4 @@ Route::get('/Payments', function () {
 })->middleware(['auth', 'verified'])->name('Payment');
 
 
-
-
 require __DIR__.'/auth.php';

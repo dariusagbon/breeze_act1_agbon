@@ -16,6 +16,39 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+
+                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('rooms')" :active="request()->routeIs('rooms')">
+                        {{ __('Rooms') }}
+                    </x-nav-link>
+                </div>
+
+                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('booking')" :active="request()->routeIs('booking')">
+                        {{ __('Booking') }}
+                    </x-nav-link>
+                </div>
+
+                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('BookingListView')" :active="request()->routeIs('BookingListView')">
+                        {{ __('View Booking') }}
+                    </x-nav-link>
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('CustomerView')" :active="request()->routeIs('CustomerView')">
+                        {{ __('Customers') }}
+                    </x-nav-link>
+                </div>
+                
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('Payment')" :active="request()->routeIs('Payment')">
+                        {{ __('Payment') }}
+                    </x-nav-link>
+                </div>
+
+                
+                
             </div>
 
             <!-- Settings Dropdown -->
