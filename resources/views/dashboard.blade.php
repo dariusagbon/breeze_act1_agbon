@@ -28,7 +28,7 @@
                     📅 Booking
                 </a>
 
-                <a href="{{ route('BookingListView') }}"
+                <a href="{{ route('ViewBooking') }}"
                    class="flex items-center justify-center gap-2 px-4 py-4 bg-yellow-500 text-white font-semibold rounded-lg shadow hover:bg-yellow-600 transition">
                     📋 View Bookings
                 </a>
